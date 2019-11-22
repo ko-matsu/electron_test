@@ -9,8 +9,13 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "^7.1.2",
+  "dependencies": {
+    "electron": "7.1.2",
     "cfd-js": "./modules/cfd-js"
+  },
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "7.1.2",
+    "arch": "x64"
   }
 }

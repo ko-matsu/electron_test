@@ -2,6 +2,7 @@
 
 // Electronのモジュール
 const electron = require("electron");
+const cfdjs = require("cfd-js");
 
 // アプリケーションをコントロールするモジュール
 const app = electron.app;
@@ -24,6 +25,7 @@ app.on("window-all-closed", () => {
 app.on("ready", () => {
   //ウィンドウサイズを1280*720（フレームサイズを含まない）に設定する
   mainWindow = new BrowserWindow({width: 1280, height: 720, useContentSize: true});
+  console.log("cfdjs=", cfdjs.GetSupportedFunction());
   //使用するhtmlファイルを指定する
   mainWindow.loadURL(`file://${__dirname}/index.html`);
 
