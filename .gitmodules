@@ -1,0 +1,4 @@
+[submodule "modules/cfd-js"]
+	path = modules/cfd-js
+	url = https://github.com/ko-matsu/cfd-js.git
+	branch = develop
