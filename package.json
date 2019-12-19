@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": "7.1.2",
-    "cfd-js": "./modules/cfd-js"
+    "cfd-js": "git+https://github.com/cryptogarageinc/cfd-js#feature/split_library_20191218"
   },
   "files": [
     "*.js",
