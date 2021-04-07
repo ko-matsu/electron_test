@@ -5,14 +5,19 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "electron_build": "node ./dev_script/build.js",
+    "build": "electron-builder build",
+    "release": "electron-builder --publish always",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "7.1.2",
     "cfd-js": "cryptogarageinc/cfd-js#semver:^0.3.5"
+  },
+  "devDependencies": {
+    "electron": "12.0.2",
+    "electron-builder": "^22.10.0",
+    "electron-rebuild": "^2.3.5"
   },
   "files": [
     "*.js",

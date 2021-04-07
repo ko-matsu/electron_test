@@ -1,0 +1,21 @@
+appId: test.komatsu.electron
+copyright: Copyright © 2021
+productName: electron_test
+directories:
+  buildResources: resources
+
+win:
+  target:
+    - zip
+linux:
+  target:
+    - zip
+
+files:
+  - "build/"
+  - "package.json"
+  - "!node_modules/jschardet/"
+  - "main.js"
+  - "index.html"
+
+publish: {provider: github, releaseType: draft }
