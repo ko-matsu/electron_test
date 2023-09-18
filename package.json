@@ -15,7 +15,7 @@
     "cfd-js": "cryptogarageinc/cfd-js#semver:^0.4.0"
   },
   "devDependencies": {
-    "electron": "22.3.21",
+    "electron": "22.3.24",
     "electron-builder": "^22.14.13",
     "electron-rebuild": "^3.2.7"
   },
